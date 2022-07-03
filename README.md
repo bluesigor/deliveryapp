@@ -18,6 +18,13 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `npm run server1`
+
+Runs json-server for posting customer details and their orders that were submited with form which is in ShoppingCart page.
+
+### `npm run server2`
+
+Runs json-server with all available shops and their menus on given delivery platform.
 
 ### `npm run build`
 

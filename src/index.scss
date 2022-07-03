@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$background-primary:#f7f7f7;
+$background-shop-main:#929aab;
+$background-card-main:#eeeeee;
+$background-products-main:#393e46;
+$background-successful:#128612;
+$fontsize-large:24px;
+$fontsize-med:19px;
+$fontsize-small:14px;
+$fontweight-large:700;
+$fontweight-med:500;
+$fontweight-small:200;

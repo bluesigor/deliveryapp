@@ -1,0 +1,17 @@
+@import '../../index.scss';
+.cards {
+    padding: 20px 40px;
+    margin-left: 50px;
+    border: 1px solid $background-shop-main;
+    border-radius: 8px;
+    height: 80vh;
+    background-color: $background-shop-main;
+    width: 100%;
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: scroll;
+}

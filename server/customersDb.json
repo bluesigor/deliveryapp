@@ -1,0 +1,15 @@
+{
+  "customer": [
+    {
+      "name": "Blyusovich Іgor Volodimirovich",
+      "email": "austrianlwoos@gmail.com",
+      "phone": "0973934448",
+      "address": "Героя України Богдана Сольчаника, ",
+      "order": {
+        "orders": "Emporda 2012: 2,Valpolicella Riserva N.V.: 3,Pêra-Manca Tinto 1990: 3",
+        "totalSum": 374
+      },
+      "id": 1
+    }
+  ]
+}

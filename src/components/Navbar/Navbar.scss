@@ -1,0 +1,36 @@
+@import '../../index.scss';
+.navbar {
+    background-color: $background-shop-main;
+    height: 90px;
+    padding: 25px 135px;
+    display: flex;
+    flex-direction: column;
+    .links {
+        width: 270px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        align-items: center;
+        .line {
+            font-size: $fontsize-large;
+        }
+        .link {
+            color: $background-products-main;
+            text-decoration: none;
+            font-size: $fontsize-med;
+            font-weight: $fontweight-large;
+        }
+        .link:hover {
+            transition: 0.7s;
+            color: $background-card-main;
+        }
+    }
+    .notification {
+        color: $background-primary;
+        background-color: $background-successful;
+        border: 1px solid $background-successful;
+        border-radius: 8px;
+        width: 20%;
+        margin-top: 10px;
+    }
+}

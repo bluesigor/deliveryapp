@@ -1,0 +1,41 @@
+@import '../../index.scss';
+.store {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    height: 150px;
+    width: 100%;
+    border: 1px solid $background-products-main;
+    border-radius: 8px;
+    .title {
+        font-size: $fontsize-large;
+        font-size: $fontsize-med;
+        text-transform: capitalize;
+    }
+    .logo {
+        height: 150px;
+        width: 100px;
+    }
+}
+
+.store:nth-child(2n) {
+    color: $background-card-main;
+    background-color: $background-products-main;
+    border: 1px solid $background-products-main;
+}
+
+.store:nth-child(2n):hover {
+    transition: 0.7s;
+    color: $background-products-main;
+    background-color: $background-card-main;
+    border: 1px solid $background-products-main;
+}
+
+.store:hover {
+    transition: 0.7s;
+    color: $background-card-main;
+    background-color: $background-products-main;
+    border: 1px solid $background-products-main;
+}

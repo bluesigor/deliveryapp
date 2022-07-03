@@ -1,0 +1,21 @@
+@import '../../index.scss';
+.shops {
+    header {
+        text-align: center;
+        width: 100%;
+        font-size: $fontsize-large;
+        font-weight: $fontweight-med;
+    }
+    border: 1px solid $background-shop-main;
+    border-radius: 8px;
+    background-color: $background-primary;
+    width: 90%;
+    height: 80vh;
+    flex: 2;
+    padding: 20px 40px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
